@@ -28,3 +28,5 @@ firstly, please open any of the .blend file
 
 
 and thats all. images will appear on '../create_dataset/blender_green_images'    directory
+
+After that, you need to crop person images from green background. To do that, please go to '../create_dataset/' folder and run 'crop_person.py' file.
