@@ -1,6 +1,14 @@
 # bld-dataset
 This code helps you create your own synthetic pose estimation dataset in MPII format using Python. Firstly, we created human models in Blender 3D software and cropped human models from 3D environment. Later, we pasted cropped images onto varying background to create multi-person pose estimation dataset. Sample images are given below:
 
+![image](https://user-images.githubusercontent.com/63475020/163546505-3d5d2953-4d3f-4ee9-bd9d-0148eb784b1f.png)
+
+![image](https://user-images.githubusercontent.com/63475020/163546553-85961606-4511-44a9-a955-ca70ec2cc431.png)
+
+![image](https://user-images.githubusercontent.com/63475020/163546601-c2e8883b-967e-4690-8a51-e02165b33521.png)
+
+
+
 ![image](https://user-images.githubusercontent.com/63475020/163467630-7c7d80c6-d8d4-406e-aeb2-47761d387a14.png)
 
 ![image](https://user-images.githubusercontent.com/63475020/163467686-a4030064-cbff-4c4f-b196-6f580dbbc292.png)
