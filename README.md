@@ -13,7 +13,7 @@ In short, you can download everything you need from Google Drive. If you want to
 
 Explanation for each folder is given below:
 
-
+--------------------------------------------------------------------------------------------------------------------------
 'blender_models'
 -	this directory contains Blender files to create person images and coordinates
 
@@ -24,7 +24,7 @@ Explanation for each folder is given below:
 -	in that case your final dataset will be created by selecting person images from a pool of 60000 people instead of 49000 people.
 
 
-
+--------------------------------------------------------------------------------------------------------------------------
 'create_background_images'
 -	this directory contains code for creating extra background images
 
@@ -35,7 +35,7 @@ Explanation for each folder is given below:
 -	in that case, your final dataset will be created by randomly choosing background images from a pool 70000 images instead of 570000
 
 
-
+---------------------------------------------------------------------------------------------------------------------------
 'create_dataset'
 -	if you want to create your dataset you need to use this directory
 
@@ -51,7 +51,7 @@ Explanation for each folder is given below:
 
 
 
-
+----------------------------------------------------------------------------------------------------------------------------
 'dataset_provided_by_us'
 -	this directory contains ready to use dataset created by us.
 
