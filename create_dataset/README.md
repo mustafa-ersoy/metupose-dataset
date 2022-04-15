@@ -1,4 +1,5 @@
 Firstly, make sure you downloaded necessary image folders that contain images from Google Drive. Final version of this directory should look like this:
+
 ![image](https://user-images.githubusercontent.com/63475020/163531339-2e67220b-27fe-40ae-a323-c82c349d6dcd.png)
 
 
