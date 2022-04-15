@@ -1,6 +1,6 @@
-this repository is used for pose estimation dataset generation from scratch.
+this repository is used for pose estimation dataset generation from scratch in Blender software.
 
-if you want to build everything from scratch and don't want to use any dataset or person image provided by us, then you have to work in this directory.
+if you want to build everything from scratch and don't want to use any dataset or person image provided by us, then you have to work in this directory. Otherwise, you can ignore this directory
 
 you can see the instructions in image below:
 
