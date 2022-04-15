@@ -17,7 +17,7 @@ We already provide 178000 final ready-to-use dataset images. We also provided ad
 - If you want to use our 178000 images pose estimation dataset, please go to 'dataset_provided_by_us' folder and download it. That's all
 - If you don't want to use our 178000 image dataset and want to create your own dataset by cropped person images and background images provided by us, then please go to 'create_dataset' folder.
 - If you don't want to use 178000 image dataset images, cropped person images etc. and create everything from scratch on your own, please go to 'blender_models' folder.
-- Also, if you want to enrich the content of background images (57000 images), please go to 'background_images' folder.
+- Also, if you want to enrich the content of background images (57000 images), please go to 'create_background_images' folder.
 
 Explanation for each folder is given below:
 
