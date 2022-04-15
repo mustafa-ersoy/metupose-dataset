@@ -1,0 +1,16 @@
+Parameter,User Answer,Explanation
+number of 1 person image,40,how many 1 person image do you want to create?
+number of 2 person image,40,how many 2 person image do you want to create?
+number of 3 person image,40,how many 3 person image do you want to create?
+number of 4 person image,40,how many 4 person image do you want to create?
+minimum number of joints visible,10,"there are 16 joints available in human model. If you write 13, all people in the final dataset will have at least 13 joints visible"
+occlusion level (between 1-5),5,"level of occlusion by other person models or objects. 1 is least occlusion, 5 is max occlusion."
+cropped person pose complexity,10 65,"we can scan through entire cropped images and choose most complex and difficult poses to be used. For example if you wirte 10 65, you only use cropped images that have complexity between top 10% and top 65% which means cropped images are only selected from this 55% portion. Using images with top complexity may decrease redundancy"
+dataset image pose complexity,5 75,"after you created dataset, we can scan through your dataset and choose the most complex images. For example, if you write 5 75 you only use dataset images that have complexity between top 5% and top 75% which means dataset images are only selected from this 70% portion. Using images with top complexity may decrease redundancy. Note that if you throw 30% of images away, you will get 30% less images."
+plot,10,"if you want to see joint locations plotted on images separately, you can use this. For example, if you write 50, first 50 images in each number of person group will be plotted as extra but they will not be included in final dataset. If you create 1,2 and 3 person images, there will be total 150 plotted images"
+No bad view,1,"It eliminates cropped images with directly from side view and directly from top or bottom view. It was observed that, adding direct side view images to a dataset reduced performance of trained model, most probably because all left and right side of joints labelled very closely and most of the joints are self occluded. You can write 1 or 0 to activate or deactivate that feature"
+percentage of validation,10,how many percent of dataset shall be used for validation?
+combine with MPII dataset?,1,it takes 1 or 0 value. Please enter 1 if you want to combine Blender dataset with MPII dataset at the end
+specific joint visible,8 9,"if you want a specific joint to be visible (not occluded) in all images, please add index of joint according to 16 joint MPII dataset. For example, if you want head and neck joints be visible, please write 8 9 If you don’t have such requirement, please leave it blank"
+number of objects,2,number of objects for occlusion. 2 is recommended
+fresh start,0,it takes 1 or 0 value. Please enter 1 if you want to delete your Blender dataset created in the past
