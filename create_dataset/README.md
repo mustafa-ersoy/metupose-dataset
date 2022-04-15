@@ -13,7 +13,7 @@ in this directory, there are two things you can do
 1. CROPPING PERSON IMAGES IN THE 'blender_green_images' DIRECTORY:
 -	our source code already provides 49000 cropped images in 'cropped_images' directory. Only if you want more cropped person then you will use this method.
 -	you don't have to but if you ran Blender files inside 'blender_models' directory and created extra green background images, they will appear on 'blender_green_images' directory.
--	to be able to use those images, green background needs to be removed and we call this 'person cropping' from background.
+-	to be able to use those newly created images, green background needs to be removed and we call this 'person cropping' from background.
 -	you only need to run the code below, to crop all the person images.
 
 python crop_person.py
