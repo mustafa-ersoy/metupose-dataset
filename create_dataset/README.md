@@ -9,8 +9,6 @@ in this directory, there are two things you can do
 2. CREATING A POSE ESTIMATION DATASET BY USING ALREADY CROPPED IMAGES
 
 -------------------------------------------------------------------------
-
-Let's start with first one.
 1. CROPPING PERSON IMAGES IN THE 'blender_green_images' DIRECTORY:
 -	our source code already provides 49000 cropped images in 'cropped_images' directory. Only if you want more cropped person then you will use this method.
 -	you don't have to but if you ran Blender models and created extra green background images, they will appear on 'blender_green_images' directory.
