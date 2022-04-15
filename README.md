@@ -3,7 +3,7 @@ This code helps you create your own synthetic pose estimation dataset in MPII fo
 
 ![image](https://user-images.githubusercontent.com/63475020/163546505-3d5d2953-4d3f-4ee9-bd9d-0148eb784b1f.png)
 
-![image](https://user-images.githubusercontent.com/63475020/163546903-8368d327-f51d-449e-8206-226281ac8281.png)
+![image](https://user-images.githubusercontent.com/63475020/163546989-c56b4210-0114-4b1b-8512-92f5485423f5.png)
 
 ![image](https://user-images.githubusercontent.com/63475020/163546601-c2e8883b-967e-4690-8a51-e02165b33521.png)
 
