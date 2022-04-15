@@ -1,4 +1,4 @@
-This codes help users to create background images to be used in pose estimation dataset generation process.
+This folder helps users to create background images to be used in pose estimation dataset generation process.
 We already provide 57000 background images. If you want to create more background images, you have to work in this directory. Otherwise, you can ignore this directory.
 The code takes video and number of seconds between each frame as input an create images with no human in them. Output images will appear on ../create_dataset/background_images  folder.
 
