@@ -1,5 +1,5 @@
 # bld-dataset
-This code helps you create your own synthetic pose estimation dataset in MPII format using Python. Firstly, we created human models in Blender 3D software and cropped human models from 3D environment. Later, we pasted cropped images onto varying background to create multi-person pose estimation dataset. Sample images are given below:
+This code helps you create your own synthetic pose estimation dataset in MPII format using Python. Firstly, we created human models in Blender 3D software and cropped human models from 3D environment. Later, we pasted cropped images onto varying background images and added some objects to create occlusion effect. Sample images are given below:
 
 ![image](https://user-images.githubusercontent.com/63475020/163546505-3d5d2953-4d3f-4ee9-bd9d-0148eb784b1f.png)
 
@@ -11,7 +11,13 @@ This code helps you create your own synthetic pose estimation dataset in MPII fo
 
 There are four different folders and each of the four folders have their own README files and they cover everyting.
 Firstly, Github provides only source codes but Google Drive provides source code, images, Blender files and everything.
-In short, you can download everything you need from Google Drive. If you want to use Github, you can download repository including Python files and add additional data files (images, Blender files etc.) by downloading them from Google Drive.
+In short, you can download everything you need from Google Drive. If you want to use Github, you can download repository including Python files and add additional data files (images, Blender files etc.) by downloading them separately from [Google Drive](https://drive.google.com/drive/folders/1-3NnpnKSBVgotMPqNe6fdZfMEEE7fPeE?usp=sharing)
+
+We already provide 178000 final ready-to-use dataset images. We also provided additonal 49000 cropped person images and 57000 to create new dataset.
+- If you want to use our 178000 images pose estimation dataset, please go to 'dataset_provided_by_us' folder and download it. That's all
+- If you don't want to use our 178000 image dataset and want to create your own dataset by cropped person images and background images provided by us, then please go to 'create_dataset' folder.
+- If you don't want to use 178000 image dataset images, cropped person images etc. and create everything from scratch on your own, please go to 'blender_models' folder.
+- Also, if you want to enrich the content of background images (57000 images), please go to 'background_images' folder.
 
 Explanation for each folder is given below:
 
@@ -19,9 +25,9 @@ Explanation for each folder is given below:
 'blender_models'
 -	this directory contains Blender files to create person images and coordinates
 
--	we already provide 49000 person images, so you don't have to do anything within this folder. Only if you want to create your own images or increase the number of person images, you can use this folder
+-	we already provided 178000 dataset images and 49000 cropped person images, so you don't have to do anything within this folder. Only if you want to create your own images or increase the number of person images, you can use this folder
 
--	for example if you create extra 11000 images and crop the green screen, you will have total 49000+11000=60000 cropped person library.
+-	for example if you create extra person 11000 images and crop the green screen, you will have total 49000+11000=60000 cropped person library.
 
 -	in that case your final dataset will be created by selecting person images from a pool of 60000 people instead of 49000 people.
 
@@ -32,9 +38,9 @@ Explanation for each folder is given below:
 
 -	we already provide 57000 background images.
 
--	by using this directory, if you create additonal 13000 background images you will have 57000+13000=70000 total background images
+-	by using this directory, if you create additonal 13000 background images, you will have 57000+13000=70000 total background images
 
--	in that case, your final dataset will be created by randomly choosing background images from a pool 70000 images instead of 570000
+-	in that case, your final dataset will be created by randomly choosing background images from a pool of 70000 images instead of 570000
 
 
 ---------------------------------------------------------------------------------------------------------------------------
