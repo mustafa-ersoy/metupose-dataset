@@ -4,6 +4,11 @@ if you want to build everything from scratch and don't want to use any dataset o
 
 Firstly, you need to download all necessary files from [Google Drive](https://drive.google.com/drive/folders/1FnpukmwsdHjtwxJF23tBHmguwwvTj61x?usp=sharing) and place those files in this directory.
 
+Final version of this directory should look like this:
+
+![image](https://user-images.githubusercontent.com/63475020/163544336-a34f8575-bf14-467a-a895-9960947e8ef0.png)
+
+
 you can see the instructions in image below:
 
 ![demo](https://user-images.githubusercontent.com/63475020/163538141-be564416-879b-482d-bf90-35e42774bad6.png)
