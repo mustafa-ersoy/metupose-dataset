@@ -6,8 +6,7 @@ Firstly, you need to download all necessary files from [Google Drive](https://dr
 
 Final version of this directory should look like this:
 
-![image](https://user-images.githubusercontent.com/63475020/163544336-a34f8575-bf14-467a-a895-9960947e8ef0.png)
-
+![image](https://user-images.githubusercontent.com/63475020/163544505-4027373f-f5c3-4eb5-9670-3b3db8ef3017.png)
 
 you can see the instructions in image below:
 
