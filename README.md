@@ -13,7 +13,7 @@ There are four different folders and each of the four folders have their own REA
 Firstly, Github provides only source codes but Google Drive provides source code, images, Blender files and everything.
 In short, you can download everything you need from Google Drive. If you want to use Github, you can download repository including Python files and add additional data files (images, Blender files etc.) by downloading them separately from [Google Drive](https://drive.google.com/drive/folders/1-3NnpnKSBVgotMPqNe6fdZfMEEE7fPeE?usp=sharing)
 
-In our metupose dataset, we already provide 178000 final ready-to-use dataset images. We also provided additonal 49000 cropped person images and 57000 to create new dataset.
+In our metupose (Middle East Technical University - Pose) dataset, we already provide 178000 final ready-to-use dataset images. We also provided additonal 49000 cropped person images and 57000 to create new dataset.
 - If you want to use our 178000 images pose estimation dataset, please go to 'dataset_provided_by_us' folder and download it. That's all
 - If you don't want to use our 178000 image dataset and want to create your own dataset by cropped person images and background images provided by us, then please go to 'create_dataset' folder.
 - If you don't want to use 178000 image dataset images, cropped person images etc. and create everything from scratch on your own, please go to 'blender_models' folder.
